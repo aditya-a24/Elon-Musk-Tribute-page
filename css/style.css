@@ -1,0 +1,158 @@
+@font-face{
+    font-family: "tesla";
+    src: url(../fonts/TESLA.ttf);
+}
+
+body{
+    margin: 0;
+    background-color: #2E4057;
+}
+
+#main{
+    width: 95%;
+    margin: auto;
+    background-color: #A62639;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bg-image{
+    background-image: url("https://wallpapercave.com/wp/wp2048512.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 150vh;
+    background-position: center ;
+    background-size: cover;
+    margin: auto;
+    padding: 0;
+}
+
+#main-header{
+    text-align: center;
+    background-color: #A62639;
+}
+
+#main-header > p{
+    margin: 0;
+    padding-bottom: 5px;
+    color: #F4FAFF;
+
+}
+
+#title{
+    margin: 0;
+    text-align: center;
+    color: #F4FAFF;
+    font-family: "tesla";
+}
+
+.tribute-heading{
+    background-color: #F4FAFF ;
+    margin: 0;
+    color:#212529 ;
+    font-size: 2em;
+    text-align: center;
+    padding: 2px 0;
+}
+
+#tribute-info{
+    background-color: #A62639;
+    color: #F4FAFF;
+}
+
+.tri-para{
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+    margin-top: 0;
+    margin-bottom: 0.3em;
+}
+
+.para{
+    margin: 0.8em;
+}
+
+.companies-heading{
+    color: #212529;
+    float: left;
+    list-style-type: disc;
+    margin: 0.8em 0 0.5em 0.8em;
+    font-size: larger;
+}
+
+.clr{
+    clear: both;
+}
+
+#image{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 2px chartreuse solid;
+}
+
+#img-caption{
+    font-size: larger;
+    font-family: "tesla";
+    text-align: center;
+}
+
+#link-para{
+    text-align: center;
+}
+
+#tribute-link{
+    text-align: center;
+    text-decoration: none;
+    color: chartreuse;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px chartreuse solid;
+    border-radius: 0.25rem;
+}
+
+#tribute-link:hover{
+    color: chartreuse;
+    border: 1px chartreuse solid;
+    font-weight: normal;
+}
+
+#main-footer{
+    background-color: #2E4057;
+    text-align: center;
+    color: #F4FAFF;
+}
+
+#footer-para{
+    padding: 1em 0;
+    margin: 0;
+}
+
+#footer-para > small > a{
+    text-decoration: none;
+    text-align: center;
+    color: #F4FAFF;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px #F4FAFF solid;
+}
+
+#footer-para > small > a:hover{
+    border: 1px #F4FAFF solid;
+    font-weight: normal;
+}
+
+#social > ul{
+    text-align: center;
+    list-style: none;
+}
+
+#social > ul > li{
+    display: inline;
+}
+
+#social > ul > li > a{
+    text-decoration: none;
+    color: #212529;
+    margin: 0 2em;
+}
